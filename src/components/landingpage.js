@@ -1,17 +1,14 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 
+import arman from './images/john.jpg';
 class Landing extends Component {
   render() {
     return(
       <div style={{width: '100%', margin: 'auto'}}>
         <Grid className="landing-grid">
           <Cell col={12}>
-            <img
-              src="https://media-exp1.licdn.com/dms/image/C5103AQEsP4IORM8cQQ/profile-displayphoto-shrink_200_200/0?e=1586995200&v=beta&t=3RQMCgev-1zWqNv25aP_834Ey-GKo6QI31Zzq-73bk4"
-              alt="Arman Ali"
-              className="avatar-img"
-              />
+            <img src={arman} alt="arman"  className="avatar-img" style={{height: '250px', width:'250px'}} />
 
             <div className="banner-text">
               <h1>Full Stack Web Developer</h1>

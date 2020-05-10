@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
-
+import arman from './images/john.jpg';
 
 class Contact extends Component {
   render() {
@@ -9,10 +9,7 @@ class Contact extends Component {
         <Grid className="contact-grid">
           <Cell col={6}>
             <h2>Arman Ali</h2>
-            <img
-              src="https://media-exp1.licdn.com/dms/image/C5103AQEsP4IORM8cQQ/profile-displayphoto-shrink_200_200/0?e=1586995200&v=beta&t=3RQMCgev-1zWqNv25aP_834Ey-GKo6QI31Zzq-73bk4"
-              alt="avatar"
-              style={{height: '250px'}}
+            <img src={arman} alt="arman"  style={{height: '250px'}}
                />
              <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>Do you have a question or are you interested in Hiring or working with me? Just ping me or mail.</p>
 
