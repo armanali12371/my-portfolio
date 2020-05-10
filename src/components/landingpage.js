@@ -20,24 +20,24 @@ class Landing extends Component {
         <div className="social-links">
 
           {/* LinkedIn */}
-          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+          <a href="http://linkedin.com/in/arman-ali-03ba0413b" rel="noopener noreferrer" target="_blank">
             <i className="fa fa-linkedin-square" aria-hidden="true" />
           </a>
 
           {/* Github */}
-          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+          <a href="https://github.com/armanali12371" rel="noopener noreferrer" target="_blank">
             <i className="fa fa-github-square" aria-hidden="true" />
           </a>
 
           {/* Freecodecamp */}
-          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-            <i className="fa fa-free-code-camp" aria-hidden="true" />
+          <a href="https://www.instagram.com/arman_rule/" rel="noopener noreferrer" target="_blank">
+            <i className="fa fa-instagram" aria-hidden="true" />
           </a>
 
-          {/* Youtube */}
+          {/* Youtube
           <a href="http://google.com" rel="noopener noreferrer" target="_blank">
             <i className="fa fa-youtube-square" aria-hidden="true" />
-          </a>
+          </a> */}
 
         </div>
             </div>
